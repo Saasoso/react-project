@@ -6,7 +6,7 @@ import { ChatOpenAI, OpenAIEmbeddings } from "@langchain/openai";
 ///Document here
 const path = "./uploads/suicide.pdf"; 
 const chatModel = new ChatOpenAI({
-  apiKey: "sk-proj-5paUoRLCWJaigWZAVBTVT3BlbkFJrqf0vOec1Xg4PTqzKXx4",
+  apiKey: "OPENAI_API_KEY",
     model: "gpt-3.5-turbo",
     temperature: 0.5
   });
