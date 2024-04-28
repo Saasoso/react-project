@@ -1,0 +1,62 @@
+.chatbot-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px; /* Adjust width as needed */
+  height: 400px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the chatbot container horizontally */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.chat-interface {
+  flex: 1; /* Allow chat interface to grow vertically */
+  overflow-y: scroll; /* Enable scrolling for long chat history */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.chat-bubble {
+  margin-bottom: 10px; /* Add spacing between messages */
+  padding: 10px; /* Add padding to messages */
+  border-radius: 5px;
+}
+
+.user {
+  background-color: #585656;
+  color: #333;
+  text-align: left;
+}
+
+.ai {
+  background-color: #481fb9;
+  color: #000;
+  text-align: right;
+}
+
+.input-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.input-bar input[type="file"] {
+  display: flex; /* Hide the default file input appearance */
+}
+
+.input-bar input[type="text"],
+.input-bar button {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px; /* Add spacing between input elements */
+}
+.input-bar input[type="text"] {
+width: 500px;
+}
+
+.input-bar button {
+  cursor: pointer;
+  background-color: #4CAF50; /* Green color for send button */
+  color: white;
+}
